@@ -78,7 +78,7 @@ O módulo de autenticação do Tri admin funciona da seguinte forma: ao criar um
 
 Após a ativação da conta, o usuário pode fazer o login na plataforma. Ao fazer o login, o sistema verifica se o email e a senha informados correspondem a uma conta válida. Caso sim, o usuário é autenticado e recebe um token de acesso, que será utilizado em todas as requisições subsequentes.
 
-Para mais detalhes sobre o modelo de autenticação adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/Defense_conector/blob/main/doc/Modelo%20de%20negocios%20autentica%C3%A7%C3%A3o.md#introdu%C3%A7%C3%A3o). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
+Para mais detalhes sobre o modelo de autenticação adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/tri-admin-versions/blob/main/doc/Modelo%20de%20negocios%20autentica%C3%A7%C3%A3o.md#introdu%C3%A7%C3%A3o). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
 
 ### 3.2 - Gestão de acessos e permissões
 
@@ -136,7 +136,7 @@ Todo o tráfego na plataforma é criptografado utilizando o protocolo HTTPS, gar
 
 O módulo de autenticação do Tri admin exige que os usuários se autentiquem com um nome de usuário e senha para acessar a plataforma. Além disso, o sistema conta com recursos de verificação de grupo de acesso para garantir que cada usuário tenha acesso apenas às funcionalidades que lhe são permitidas.
 
-Para mais detalhes sobre o modelo de autenticação adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/Defense_conector/blob/main/doc/Modelo%20de%20negocios%20autentica%C3%A7%C3%A3o.md#introdu%C3%A7%C3%A3o). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
+Para mais detalhes sobre o modelo de autenticação adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/tri-admin-versions/blob/main/doc/Modelo%20de%20negocios%20autentica%C3%A7%C3%A3o.md#introdu%C3%A7%C3%A3o). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
 
 ### 7.3 - Recuperação de senha
 
@@ -156,7 +156,7 @@ O Tri admin utiliza o modelo de exclusão para garantir a privacidade dos dados 
 
 Ao marcar os dados como "excluídos", o Tri admin evita que esses dados sejam perdidos ou corrompidos, além de permitir a recuperação de dados em caso de erros ou problemas no sistema. Além disso, o modelo de exclusão é uma prática recomendada para garantir a conformidade com as leis e regulamentações de proteção de dados, como a GDPR e a LGPD.
 
-Para mais detalhes sobre o modelo de exclusão adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/Defense_conector/blob/main/doc/Modelo%20de%20negocios%20exclus%C3%A3o.md). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
+Para mais detalhes sobre o modelo de exclusão adotado, recomendamos acessar o nosso documento explicativo disponível [aqui](https://github.com/lucashahnndev/tri-admin-versions/blob/main/doc/Modelo%20de%20negocios%20exclus%C3%A3o.md). Lá você encontrará informações completas sobre como o modelo funciona e como ele pode ser aplicado em diferentes situações.
 
 ## 8 - Integrações com software de terceiros
 
