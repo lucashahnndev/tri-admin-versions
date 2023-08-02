@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Documentação</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Documentação do Código</h1>
+    <h2>Introdução</h2>
+    <p>Este código contém rotas e funções para trabalhar com uma lista negra (blacklist) em uma aplicação FastAPI.</p>
+    <h2>Importações</h2>
+    <p>O código possui as seguintes importações:</p>
+    <ul>
+        <li>os</li>
+        <li>List (do módulo typing)</li>
+        <li>APIRouter (do módulo fastapi)</li>
+        <li>Request e Depends (do módulo fastapi)</li>
+        <li>blacklist (do módulo models)</li>
+        <li>utils (do módulo controllers)</li>
+    </ul>
+    <h2>Funções e Rotas</h2>
+    <p>O código possui as seguintes rotas e funções:</p>
+    <ul>
+        <li><strong>blacklist_adjust():</strong> Função assíncrona que ajusta o arquivo de configuração da lista negra.
+        </li>
+        <li><strong>add_blacklist(item: blacklist, request: Request, register=True):</strong> Rota que adiciona um item
+            à lista negra.</li>
+        <li><strong>edit_blacklist(item_to_editd: blacklist, id: int, request: Request, register=True):</strong> Rota
+            que edita um item na lista negra.</li>
+        <li><strong>delete_blacklist(id: int, request: Request, register=True):</strong> Rota que deleta um item da
+            lista negra.</li>
+        <li><strong>view_users(id: int):</strong> Rota que exibe um item da lista negra.</li>
+        <li><strong>listName_blacklist(page: int, limit: int, query: str):</strong> Rota que lista os itens da lista
+            negra de acordo com uma query de busca e com paginação.</li>
+    </ul>
+    <h2>Parâmetros</h2>
+    <p>O código utiliza os seguintes parâmetros:</p>
+    <ul>
+        <li><strong>item:</strong> Um objeto da classe blacklist.</li>
+        <li><strong>item_to_editd:</strong> Um objeto da classe blacklist.</li>
+        <li><strong>id:</strong> Um inteiro que representa o id do item.</li>
+        <li><strong>page:</strong> Um inteiro que representa o número da página a ser exibida.</li>
+        <li><strong>limit:</strong> Um inteiro que representa o limite de itens a ser exibido por página.</li>
+        <li><strong>query:</strong> Uma string que representa a query de busca.</li>
+    </ul>
+    <h2>Codigo</h2>
+    <p>Este é o codigo até o momento</p>
+    <pre style="background-color: black;color:white;border-radius: 1rem; padding: 1rem;width: 50%;">
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+from typing import List
+from fastapi import APIRouter
+from fastapi import Request, Depends
+
+
+from models import blacklist
+import controllers.utils as utils
+
+
+temp = f'{os.environ["temp"]}/TRI'
+
+
+async def blacklist_adjust():
+    with open('config/blacklist.conf', 'w') as blacklist_file:
+        for ip in await blacklist.objects.all(trash_date=None):
+            if ip.type == '2':
+                blacklist_file.write(f'\nRequire not ip {ip.ip_or_host}')
+            if ip.type == '1':
+                blacklist_file.write(f'\nRequire not host {ip.ip_or_host}')
+
+router = APIRouter()
+
+
+@router.post('/add')
+@utils.request_user_and_permission_group(id_func="add_blacklist")
+@utils.add_controller(model=blacklist, async_function=blacklist_adjust)
+async def add_blacklist(item: blacklist, request: Request, register=True):
+    pass
+
+
+@router.patch('/edit/{id}')
+@utils.request_user_and_permission_group(id_func="edit_blacklist")
+@utils.edited_controller(model=blacklist, async_function=blacklist_adjust)
+async def edit_blacklist(item_to_editd: blacklist, id: int, request: Request, register=True):
+    pass
+
+
+@router.delete('/delete/{id}')
+@utils.request_user_and_permission_group(id_func=None)
+@utils.to_trash(model=blacklist, async_function=blacklist_adjust)
+async def delete_blacklist(id: int, request: Request, register=True):
+    pass
+
+
+@router.post('/view/{id}')
+@router.get('/view/{id}')
+@utils.request_user_and_permission_group(id_func="view_blacklist")
+@utils.view_controller(blacklist)  # type: ignore
+async def view_users(id: int):
+    pass
+
+
+@router.post('/listName/page={page}&limit={limit}&query={query}')
+@router.get('/listName/page={page}&limit={limit}&query={query}')
+@utils.request_user_and_permission_group(id_func="list_blacklist")
+@utils.list_controller_paginate_query(blacklist,)  # type: ignore
+async def listName_blacklist(page: int, limit: int, query: str):
+    pass
+
+    </pre>
+</body>
+
+</html>

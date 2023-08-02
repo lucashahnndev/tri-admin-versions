@@ -1,0 +1,28 @@
+Documento Técnico de Versão 1.2.1-140323 de 14/03/2023
+
+Introdução:
+Este documento descreve as atualizações e melhorias aplicadas ao software na versão 1.2.2-140323. Adotamos o modelo de versão SemVer.
+
+Backend:
+Foram realizados ajustes no módulo Defense IA para melhorar o controle e segurança do processo de autenticação. Agora, a importação e autorização do Defense foram movidas para a função "sincronizer_()", e removidas do início do script. A autenticação somente será ativada quando houver dados para sincronizar. Caso ocorra falha na autenticação, o script não ficará travado, pois há controle e registro de erros por meio do try-except.
+
+A falha na verificação do módulo debug também foi ajustada. No trecho anterior, estava ocorrendo a verificação invertida. O novo trecho corrigido ficou da seguinte forma: Antes 'if type(error) != "str":', Depois 'if type(error) == "str":'. Com esta correção, o módulo debug passa a funcionar corretamente no registro de erros.
+
+Foi iniciado o processo de registro de atividades de agentes no modelo de negócios de autenticação interno do software. Ainda não está pronto, é apenas um protótipo. Ele ficará embutido no decorador de rotas responsável pela autorização. A ideia do processo de registro é obter a rota, obter a chave sub do token jwt que é responsável por identificar o agente, pegar o ip e o user agente do navegador. Atualmente, isso já funciona e é impresso no console esses dados. A intenção final é registrar isso no banco de dados e ainda por cima pegar o nome de quem o agente editou, excluiu ou criou.
+
+Facial Validator:
+A validação de facial foi aprimorada e corrigidos bugs que identificavam uma imagem válida como falsa. Foi adicionada uma nova função que recebe uma base64 e cria um retângulo em torno do rosto e devolve as coordenadas do rosto.
+
+Buscador de cadastros:
+Foi otimizado o sistema de pesquisa para acelerar o processo
+
+Frontend:
+Nos campos de cadastro, ao abrir a câmera para capturar o facial, agora terá um retângulo indicando o rosto da pessoa em tempo real. Foi adicionado um cortador de imagem assim que a imagem da câmera é capturada, é aberta uma tela de cropper para cortar a imagem. O mesmo acontece ao ser inserida uma imagem no input.
+
+Foram corrigidos alguns bugs no frontend, como a perda do estilo da tela ao acionar o botão de importar, elementos fora de proporção, falhas ao conectar ao websocket e alguns bugs de renderização de páginas. 
+Foi otimizada a renderização de páginas com muitas informações para que o navegador não trave, reduzindo variáveis desnecessárias para aliviar a memória. Foram adicionadas melhorias e aprimoramento de estilo e aparência. 
+Foi melhorado o estilo do loader de espera de fim de carregamento e adicionado em páginas que não o tinham. 
+Foi adicionada uma aba para visualizar termos de uso e de usuário final. e  meu perfil
+
+Conclusão:
+Com essas atualizações, esperamos que o software esteja ainda mais seguro

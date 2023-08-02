@@ -1,0 +1,32 @@
+Versão 1.3.2-02082023 - O que há de novo
+
+Atualização de correção de bugs
+
+Nesta versão, diversas melhorias e correções de bugs foram realizadas, tornando o sistema mais estável e amigável para os usuários finais. Segue abaixo a lista organizada por assunto das principais mudanças implementadas:
+
+Correção de Bugs:
+- Foi corrigido um bug no arquivo "list_controller_paginate_query_and_id.py", onde o método .filter estava causando erro ao buscar registros de departamento de usuário. Agora, o método .all é utilizado para corrigir o problema.
+- Bug corrigido na solicitação de permissões na rota de listar nome de grupo de permissão e visualizar o próprio perfil. Agora, somente é solicitado que o usuário esteja autenticado.
+
+Otimizações:
+- O front-end foi ajustado para salvar o modelo de configurações na sessionStorage em vez do localStorage, garantindo que as configurações sejam específicas para cada sessão de usuário.
+- Ao clicar em salvar, editar ou excluir um usuário no front-end, agora será acionado o loader diretamente, evitando ações duplicadas e melhorando a usabilidade.
+- Adicionada a funcionalidade de visualização da foto original ao posicionar o mouse sobre a miniatura da foto de perfil, facilitando a identificação do usuário.
+- Estilização aprimorada do front-end para melhorar a aparência do tema light, proporcionando melhor contraste e facilidade de navegação.
+- Melhorias visuais na tela de login para uma melhor experiência do usuário.
+
+Novas Funcionalidades:
+- Adicionada a opção de multiseleção para exclusão de objetos em lote na tela de listagem de objetos.
+- Implementada rota no backend para excluir objetos em lote, complementando a funcionalidade de multiseleção.
+- Aviso de atualização disponível otimizado para uma notificação menos invasiva, sem interromper as ações do usuário.
+- Inserção de novo método de registro de erros no aplicativo, permitindo o salvamento de erros e informações relevantes no localstorage para depuração futura.
+- Arquivos de configuração de páginas ajustados e otimizados.
+
+Outras Melhorias:
+- Documento explicativo sobre o modelo de exclusão adicionado para esclarecer o processo e evitar problemas futuros.
+- Projeto do modelo de exclusão iniciado com adição de informações pelo usuário e planejamento para implementação futura no código.
+- Início do processo de log e registro de atividade dos agentes como protótipo, para monitorar e rastrear ações no software.
+- Criação da biblioteca User Agente para extrair informações do navegador e sistema operacional, facilitando o registro correto das informações de log.
+
+
+Essas mudanças tornam a versão 1.3.2 do sistema mais robusta, segura e amigável, proporcionando uma experiência de uso mais agradável aos usuários finais. Caso tenha alguma dúvida ou identifique alguma irregularidade, por favor, entre em contato com nosso suporte técnico. Agradecemos por sua preferência e contribuições para a melhoria contínua do software.

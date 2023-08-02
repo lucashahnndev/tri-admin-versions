@@ -1,0 +1,23 @@
+Documento de Versionamento e Atualização de Software
+
+Este documento tem como objetivo estabelecer as diretrizes para o versionamento e atualização do software desenvolvido pela equipe de desenvolvimento de software da empresa XYZ. O software em questão é composto por um servidor de aplicação e um aplicativo web que permite gerenciar e visualizar informações de um banco de dados.
+
+Versão
+O software será versionado de acordo com o modelo SemVer (versão x.y.z), onde x representa uma mudança significativa, y representa novas funcionalidades e correções de bugs e z representa correções menores.
+
+O pacote de software será identificado com a versão do software seguida da data de lançamento. Isso permitirá uma identificação mais fácil dos detalhes de cada versão.
+
+Atualizações
+As atualizações serão classificadas em correções de bugs, patches de segurança, qualidade, otimização e adições de recursos. O tipo de atualização e pacote será indicado nos códigos para facilitar a identificação das atualizações.
+
+Pacote
+As atualizações serão distribuídas em um pacote que incluirá o código do servidor de aplicação e o aplicativo web. O pacote também incluirá instruções detalhadas sobre como instalar e configurar o software.
+
+Atualização automática
+O software terá suporte para atualização automática, permitindo que os usuários possam manter a versão mais recente do software sem a necessidade de intervenção manual. A atualização automática será configurável pelo usuário.
+
+Interface gráfica de usuário (GUI)
+O software terá uma interface gráfica de usuário que será executada localmente no sistema operacional do servidor. A GUI permitirá que os usuários possam gerenciar e configurar o servidor de forma mais fácil e conveniente. Além disso, a GUI terá a opção de verificar e instalar atualizações do software.
+
+Conclusão
+Este documento estabelece as diretrizes para o versionamento e atualização do software desenvolvido pela equipe de desenvolvimento de software da empresa XYZ. As atualizações serão distribuídas em um pacote que incluirá instruções detalhadas sobre como instalar e configurar o software. Além disso, o software terá suporte para atualização automática e uma interface gráfica de usuário que permitirá que os usuários possam gerenciar e configurar o servidor de forma mais fácil e conveniente.

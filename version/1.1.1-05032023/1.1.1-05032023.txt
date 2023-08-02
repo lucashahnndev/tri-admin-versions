@@ -1,0 +1,38 @@
+Introdução:
+O App Server e Web App é uma aplicação web para gerenciamento de estabelecimentos usuarios e visitantes. Esta versão apresenta novas funcionalidades e correções de bugs.
+
+Este documento descreve as atualizações realizadas no código fonte do aplicativo, bem como as mudanças no processo de versionamento adotado. O objetivo é tornar mais fácil identificar as mudanças realizadas em cada versão, sem a necessidade de consultar a documentação do pacote. Além disso, esta documentação também inclui informações sobre as mudanças específicas realizadas no código do servidor de aplicativos e na interface gráfica do usuário.
+
+Versionamento:
+A partir desta versão, optamos por implantar o formato Semver de versionamento. As versões seguirão o modelo x.y.z, sendo esta versão considerada a versão app server 1.1.1 e a versão web app 1.1.1. Para identificar o tipo de atualização e pacote, utilizaremos códigos para correções de bugs, patches de segurança, qualidade, otimização ou adições de recursos. Cada versão conterá a data de lançamento para facilitar a identificação.
+
+Cada atualização do aplicativo será categorizada em um dos seguintes tipos:
+
+Correção de bugs
+Patch de segurança
+Qualidade
+Otimização
+Adição de recursos
+Cada atualização também terá uma data associada para facilitar a identificação da versão.
+
+Pacote:
+
+Frontend:
+Nesta versão, removemos vestígios de uma versão do qual este app originou-se e adicionamos arquivos excluídos por engano, como o manifest.php usado nas funções PWA. Ajustamos o escopo do app em pwabuilder.js e manifest.php para que abranja /app/ antes estava como /app, o que gerava erros de escopo. Ajustamos as páginas /edit/, /add/, /general_records/ para que recebam os arquivos de configuração para cada modelo. Essas páginas são globais e cada modelo do app deve poder ser usado por elas. O arquivo JSON define se a página terá um botão de editar, excluir ou adicionar. O backend analisa se o objeto tem um botão de excluir ou não e se o usuário tem permissão para executar a ação. Nas páginas add e edit, adicionamos suporte a árvore de estabelecimentos para facilitar a escolha de permissões e suporte à seleção de range de datas.
+
+
+
+App Server:
+Adicionamos um arquivo separado vhost.conf do apache chamado proxy.conf que ficará localizado na pasta config e será usado pelo sistema para configurar o proxy e o mod_wsgi de forma mais automática e facilitada. No módulo Debug, adicionamos a função de caso o parâmetro error recebido seja uma exceção, ele adiciona o nome da linha e a função do erro no log. Se for uma string, apenas adiciona o erro.
+
+DefensaLib:
+Adicionamos funcionalidades de atualização de autorização para que não seja necessário reautenticar em cada solicitação. Adicionamos o modelo visitor com adição, edição e exclusão sincronizadas.
+
+Gerenciador de Sincronização:
+Adicionamos uma função que se o status for auth_error ele irá alterar o status para pending.
+
+GUI:
+Iniciamos um modelo de interface GUI para a configuração do servidor. A ideia é permitir alterar as portas dos serviços, alterar o domínio do servidor e adicionar ou renovar o certificado SSL do site. Também incluímos funcionalidades para parar, reiniciar ou verificar o status dos serviços.
+
+Conclusão:
+A versão 1.1.1 apresenta melhorias significativas e novas funcionalidades que aumentam a eficiência e usabilidade do App Server e Web App. Estamos trabalhando continuamente para melhorar a aplicação e atender às necessidades de nossos usuários.

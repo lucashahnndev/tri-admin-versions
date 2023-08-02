@@ -1,0 +1,133 @@
+Contrato de Licença do Software
+
+Este é um contrato de licença entre você, o usuário final (doravante referido como "Você" ou "Seu"), e a empresa Viver Tecnologias, nome fantasia Tri Controle de Acesso (doravante referida como "Nós" ou "Nosso"), para o uso do software privado desenvolvido por nós (doravante referido como "Software").
+
+Ao instalar, copiar ou usar o software, você concorda em ficar vinculado aos termos deste contrato de licença.
+
+Licença
+Nós concedemos a você uma licença pessoal, limitada, não exclusiva, intransferível e revogável para usar o Software apenas para seus fins internos.
+Você não tem permissão para distribuir, modificar, adaptar, traduzir, engenharia reversa, descompilar ou desmontar o software, ou criar trabalhos derivados do mesmo.
+
+Propriedade
+O Software é propriedade exclusiva da Viver Tecnologias, nome fantasia Tri Controle de Acesso, e está protegido pelas leis de direitos autorais e outras leis de propriedade intelectual aplicáveis. Não concedemos a você nenhum direito de propriedade sobre o software.
+
+Suporte e atualizações
+Nós não somos obrigados a fornecer suporte técnico, manutenção ou atualizações para o software. No entanto, reservamos o direito de fornecer esses serviços a nosso exclusivo critério.
+
+Garantia Limitada
+O software é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a garantias implícitas de comercialização, adequação a uma finalidade específica e não violação.
+
+Limitação de Responsabilidade
+Em nenhuma circunstância, seremos responsáveis por quaisquer danos, incluindo, mas não se limitando a danos diretos, indiretos, incidentais, especiais ou consequentes, decorrentes do uso ou incapacidade de usar o software.
+
+Rescisão
+Este contrato de licença será rescindido automaticamente se você violar qualquer um dos termos deste acordo.
+Em caso de rescisão, você deverá cessar imediatamente o uso do software e destruir todas as cópias do software em sua posse.
+
+Lei Aplicável
+Este contrato de licença será regido pelas leis do país em que a empresa Viver Tecnologias, nome fantasia Tri Controle de Acesso, está registrada, sem levar em conta conflitos de leis.
+Qualquer litígio decorrente deste contrato será resolvido exclusivamente pelos tribunais competentes localizados nesse país.
+
+
+Software de Terceiros:
+Este software utiliza os seguintes componentes de código aberto, cada um com sua própria licença:
+
+- Apache 2.4 - https://www.apache.org/licenses/LICENSE-2.0
+- PHP 7 - https://www.php.net/license/
+- Python 3.11 - https://docs.python.org/3/license.html
+- NSSM - http://nssm.cc/download
+
+Bibliotecas JavaScript:
+- Cropper.js - https://github.com/fengyuanchen/cropperjs/blob/master/LICENSE
+- Ionicons - https://github.com/ionic-team/ionicons/blob/master/LICENSE
+
+Google Fonts:
+- Open Font License - https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Bibliotecas Python:
+- a2wsgi==1.6.0 - https://github.com/abersheeran/a2wsgi/blob/master/LICENSE
+- aiosqlite==0.17.0 - https://github.com/omnilib/aiosqlite/blob/master/LICENSE
+- altgraph==0.17.3 - https://github.com/ronaldoussoren/altgraph/blob/master/LICENSE
+- anyio==3.6.2 - https://github.com/agronholm/anyio/blob/master/LICENSE
+- bcrypt==4.0.1 - https://github.com/pyca/bcrypt/blob/master/LICENSE
+- certifi==2022.9.24 - https://certifi.io/en/latest/
+- cffi==1.15.1 - https://github.com/cffi/cffi/blob/master/COPYRIGHT
+- charset-normalizer==2.1.1 - https://github.com/Ousret/charset_normalizer/blob/master/LICENSE
+- click==8.1.3 - https://github.com/pallets/click/blob/main/LICENSE.rst
+- colorama==0.4.6 - https://github.com/tartley/colorama/blob/master/LICENSE.txt
+- contourpy==1.0.6 - https://github.com/contourpy/contourpy/blob/main/LICENSE
+- crypto==1.4.1 - https://github.com/chrissimpkins/crypto/blob/master/LICENSE
+- cryptography==38.0.1 - https://github.com/pyca/cryptography/blob/main/LICENSE
+- cycler==0.11.0 - https://matplotlib.org/stable/users/license.html
+- databases==0.6.1 - https://github.com/encode/databases/blob/master/LICENSE.md
+- dnspython==2.2.1 - https://github.com/rthalley/dnspython/blob/master/LICENSE
+- ecdsa==0.18.0 - https://github.com/tlsfuzzer/python-ecdsa/blob/master/LICENSE
+- email-validator==1.3.0 - https://github.com/JoshData/python-email-validator/blob/main/LICENSE
+- et-xmlfile==1.1.0 - https://pypi.org/project/et-xmlfile/
+- fastapi==0.85.1 - https://github.com/tiangolo/fastapi/blob/master/LICENSE
+- Flask==2.2.2 - https://github.com/pallets/flask/blob/main/LICENSE.rst
+- fonttools==4.38.0 - https://github.com/fonttools/fonttools/blob/main/LICENSE
+- future==0.18.2 - https://github.com/PythonCharmers/python-future/blob/master/LICENSE.txt
+- h11==0.14.0 - https://github.com/python-hyper/h11/blob/master/LICENSE
+- h2==4.1.0 - https://github.com/python-hyper/h2/blob/master/LICENSE
+- hpack==4.0.0 - https://github.com/python-hyper/hpack/blob/master/LICENSE
+- hypercorn==0.14.3 - https://github.com/pgjones/hypercorn/blob/main/LICENSE
+- hyperframe==6.0.1 - https://github.com/python-hyper/hyperframe/blob/master/LICENSE
+- idna==3.4 - https://github.com/kjd/idna/blob/master/LICENSE.md
+- infi==0.0.1 - https://github.com/Infinidat/infi.systray/blob/develop/LICENSE
+- infi.systray==0.1.12 - https://github.com/Infinidat/infi.systray/blob/develop/LICENSE
+- itsdangerous==2.1.2 - https://github.com/pallets/itsdangerous/blob/main/LICENSE.rst
+- Jinja2==3.1.2 - https://github.com/pallets/jinja/blob/main/LICENSE.rst
+- jose==1.0.0 - https://github.com/latchset/jose/blob/master/COPYING
+- kiwisolver==1.4.4 - https://github.com/nucleic/kiwi/blob/main/LICENSE
+- MarkupSafe==2.1.1 - https://github.com/pallets/markupsafe/blob/main/LICENSE.rst
+- mod-wsgi==4.9.4 - https://github.com/GrahamDumpleton/mod_wsgi/blob/develop/LICENSE
+- Naked==0.1.31 - https://github.com/chrissimpkins/naked-docs/blob/master/licenses.rst
+- numpy==1.23.4 - https://numpy.org/doc/stable/license.html
+- opencv-python==4.6.0.66 - https://github.com/opencv/opencv/blob/master/LICENSE
+- openpyxl==3.0.10 - https://github.com/openpyxl/openpyxl-ci/blob/master/LICENSE
+- ormar==0.11.3 - https://github.com/collerek/ormar/blob/master/LICENSE.md
+- packaging==22.0 - https://github.com/pypa/packaging/blob/main/LICENSE
+- pandas==1.5.1 - https://github.com/pandas-dev/pandas/blob/master/LICENSE
+- passlib==1.7.4 - https://github.com/glic3rinu/passlib/blob/master/LICENSE
+- pefile==2022.5.30 - https://github.com/erocarrera/pefile/blob/master/LICENSE
+- Pillow==9.3.0 - https://github.com/python-pillow/Pillow/blob/master/LICENSE
+- priority==2.0.0 - https://github.com/python-hyper/priority/blob/master/LICENSE
+- psutil==5.9.4 - https://github.com/giampaolo/psutil/blob/master/LICENSE
+- pyasn1==0.4.8 - https://github.com/etingof/pyasn1/blob/master/LICENSE.rst
+- pycparser==2.21 - https://github.com/eliben/pycparser/blob/master/LICENSE
+- pydantic==1.10.2 - https://github.com/samuelcolvin/pydantic/blob/master/LICENSE
+- pyinstaller==5.7.0 - https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+- pyinstaller-hooks-contrib==2022.14 - https://github.com/pyinstaller/pyinstaller-hooks-contrib/blob/master/LICENSE
+- pyparsing==3.0.9 - https://github.com/pyparsing/pyparsing/blob/master/LICENSE
+- pypiwin32==223 - https://github.com/mhammond/pywin32/
+- pyTelegramBotAPI==4.7.1 - https://github.com/eternnoir/pyTelegramBotAPI/blob/master/LICENSE
+- python-dateutil==2.8.2 - https://github.com/dateutil/dateutil/blob/master/LICENSE
+- python-jose==3.3.0 - https://github.com/mpdavis/python-jose/blob/master/LICENSE
+- python-multipart==0.0.5 - https://github.com/andrew-d/python-multipart/blob/master/LICENSE.txt
+- pytz==2022.5 - https://github.com/stub42/pytz/blob/master/LICENSE.txt
+- pywin32==305 - https://github.com/mhammond/pywin32/
+- pywin32-ctypes==0.2.0 - https://github.com/mhammond/pywin32/
+- PyYAML==6.0 - https://github.com/yaml/pyyaml/blob/master/LICENSE
+- requests==2.28.1 - https://github.com/psf/requests/blob/master/LICENSE
+- rsa==4.9 - https://github.com/sybrenstuvel/python-rsa/blob/main/LICENSE
+- shellescape==3.8.1 - https://github.com/chrissimpkins/shellescape/blob/master/docs/LICENSE
+- six==1.16.0 - https://github.com/benjaminp/six/blob/master/LICENSE
+- sniffio==1.3.0 - https://github.com/python-trio/sniffio/blob/master/LICENSE
+- SQLAlchemy==1.4.41 - https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE
+- starlette==0.20.4 - https://github.com/encode/starlette/blob/master/LICENSE.md
+- toml==0.10.2 - https://github.com/uiri/toml/blob/master/LICENSE
+- typing_extensions==4.4.0 - https://github.com/python/typing_extensions/blob/main/LICENSE
+- urllib3==1.26.12 - https://github.com/urllib3/urllib3/blob/main/LICENSE.txt
+- uvicorn==0.19.0 - https://github.com/encode/uvicorn/blob/master/LICENSE.md
+- websockets==10.4 - https://github.com/aaugustin/websockets/blob/main/LICENSE
+- win10toast==0.9 - https://github.com/jithurjacob/Windows-10-Toast-Notifications/blob/master/LICENSE
+- wsproto==1.2.0 - https://github.com/python-hyper/wsproto/blob/master/LICENSE
+- xlwt==1.3.0 - https://github.com/python-excel/xlwt/blob/master/LICENSE
+
+Este software pode utilizar outros componentes de terceiros que não foram mencionados. Nosso conhecimento sobre esses componentes é limitado e a responsabilidade por eles pertence aos seus respectivos proprietários e desenvolvedores.
+
+
+Aceitação
+Ao instalar, copiar ou usar o software, você reconhece ter lido este contrato de licença e concorda em ficar vinculado por seus termos e condições.
+Se você não concorda com os termos deste contrato de licença, não instale, copie ou use o software.

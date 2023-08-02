@@ -1,0 +1,24 @@
+Versão 1.1.2-140323 - O que há de novo
+
+Nesta versão, foram realizadas diversas melhorias e correções de bugs no sistema, visando proporcionar uma melhor experiência de uso aos usuários finais. Segue abaixo uma lista com as principais mudanças realizadas:
+
+No módulo de autenticação do software, foi realizado um ajuste para melhorar o controle e segurança do processo de autenticação no módulo Defense IA, a fim de evitar falhas no sistema.
+Foi corrigida uma falha na verificação do módulo debug, que estava ocorrendo de forma invertida.
+
+Foi iniciado o processo de registro de atividades de agentes, como um protótipo, para que seja possível obter informações relevantes sobre quem editou, excluiu ou criou determinado conteúdo no sistema.
+
+Foi realizada uma validação facial aprimorada e corrigidos bugs que identificavam uma imagem válida como falsa. 
+
+Além disso, foi adicionada uma nova função que recebe um base64 e cria um retângulo em torno do rosto e devolve as coordenadas do rosto.
+
+No campo de cadastro, ao abrir a câmera para capturar o facial, agora terá um retângulo indicando o rosto da pessoa em tempo real.
+
+Foi adicionado um cortador de imagem, que é aberto assim que a imagem da câmera é capturada ou ao ser inserida uma imagem no input.
+
+Foram corrigidos alguns bugs no frontend, como perda de estilo ao acionar o botão de importar, elementos fora de proporção, falhas ao conectar ao websocket, e alguns bugs de renderização de páginas.
+
+A renderização de páginas com muitas informações foi otimizada, para que o navegador não trave. Foram reduzidas variáveis desnecessárias para aliviar a memória.
+
+Foram adicionadas melhorias e aprimoramentos de estilo e aparência, incluindo o estilo do loader de espera de fim de carregamento e uma aba para visualizar os termos de uso e de usuário final.
+
+Com essas mudanças, a versão 1.1.2-140323 proporciona uma experiência mais segura e otimizada aos usuários finais, além de oferecer novas funcionalidades que tornam o uso do sistema mais intuitivo e eficiente.

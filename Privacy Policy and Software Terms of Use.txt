@@ -1,0 +1,185 @@
+Política de Privacidade e Termos de Uso do Software Tri Admin
+
+Resumo: 
+A Política de Privacidade e Termos de Uso do Software Tri Admin estabelece as diretrizes da Tri Controle de Acesso, desenvolvedora do software, em relação à privacidade e segurança dos dados dos usuários. O documento detalha as informações coletadas pela empresa desenvolvedora, pelo software e os dados cadastrais, bem como as medidas de segurança adotadas para proteger os dados dos usuários. Além disso, a política define procedimentos para solicitação de exclusão de dados e estabelece que A Viver Tecnologias não compartilha as informações coletadas pelo software com terceiros, exceto em casos exigidos por lei ou regulamentação aplicável. No entanto, é possível que os dados sejam compartilhados com as plataformas onde o software está integrado, como parte do funcionamento da aplicação. A empresa se compromete a tomar todas as medidas necessárias para garantir a proteção e a privacidade dos dados coletados. O documento também destaca que a empresa não coleta informações de menores de idade e se esforça para manter os procedimentos de segurança atualizados e em conformidade com as melhores práticas de segurança da informação. Por fim, a política prevê a possibilidade de modificações no documento, sempre com o objetivo de manter a adequação às leis e regulamentações aplicáveis.
+
+
+Política de Privacidade
+
+A Tri Controle de Acesso, razão social Viver Tecnologias, desenvolvedora do software Tri Admin, tem como compromisso a privacidade e a segurança dos dados dos usuários do software. Este documento descreve as informações que são coletadas e como são utilizadas.
+
+Informações Coletadas pela Empresa Desenvolvedora:
+A empresa desenvolvedora se reserva o direito de coletar dados como o navegador (nome, versão) e o sistema operacional (nome, versão) para aprimoramento do software e oferecer um melhor suporte. A empresa desenvolvedora não obtém ou tem acesso a quaisquer outros dados, exceto em casos onde solicitado e permitido pelo cliente proprietário da licença do software Tri Admin instalado.
+
+Informações Coletadas pelo Software:
+O software Tri Admin captura o endereço IP, a rota acessada, o objeto visto, criado, editado ou excluído e o nome para relatório de segurança, para que o usuário possa consultar os registros. A empresa desenvolvedora não tem acesso a estes dados, a menos que solicitado e permitido pelo proprietário da licença de instalação do software.
+
+Dados Cadastrais:
+Nos campos de cadastros é obtido os dados cadastrais de uma pessoa e/ou objeto, que não são de responsabilidade da desenvolvedora, mas sim de quem instalou o software e está usando-o, pois o software é um aplicativo servidor/cliente, ou seja, quem o possui é responsável por gerenciar e controlar o sistema e o servidor. A desenvolvedora não tem e não terá acesso a estes dados, a menos que solicitado pelo cliente proprietário da versão instalada.
+
+Senhas:
+Nem a desenvolvedora nem o proprietário do site tem acesso às senhas, pois elas são criptografadas antes de serem salvas em banco de dados. O sistema atua sobre o protocolo HTTPS.
+
+Câmera e Armazenamento:
+O sistema utiliza a câmera somente sob alguma ação do usuário, geralmente para obter foto para cadastros. O software (a versão cliente) tem acesso ao armazenamento interno somente para obter algum arquivo sob ação do usuário ou salvar algum arquivo sob ação de algum usuário, geralmente para inserir imagens, importar registros em lote ou exportar algum relatório ou backup. O sistema (a parte que é o servidor ou seja a versão servidor do software) tem acesso ao armazenamento interno do sistema operacional para o funcionamento do software. As pastas as quais geralmente terão alguma modificação são a pasta raiz do software e a pasta temporária do sistema operacional, e seus usos e motivos são diversos.
+
+Cookies:
+O software não captura ou manuseia os cookies do site, somente os campos localstorage e sessionstorage.
+
+Procedimentos de Segurança:
+A empresa desenvolvedora utiliza medidas de segurança para proteger as informações contra acesso não autorizado, alteração, divulgação ou destruição não autorizada dos dados. Entre as medidas adotadas estão a criptografia dos dados, a utilização de certificados SSL e a restrição de acesso às informações pelos funcionários da empresa.
+
+Solicitação de Exclusão de Dados:
+Caso o usuário esteja insatisfeito por ter algum de seus dados cadastrados ou registrados no Tri Admin, poderá solicitar diretamente ao proprietário da licença instalada a exclusão dos mesmos.
+
+Caso o usuário esteja insatisfeito por ter seus dados coletados pela Viver Tecnologias, como o navegador e sistema operacional, poderá solicitar a exclusão pelo e-mail contato@tricontroledeacesso.com. A empresa se compromete a atender a solicitação em um prazo razoável e de acordo com as leis e regulamentações aplicáveis.
+
+Dados de Menores de Idade:
+A Viver Tecnologias não coleta dados de menores de idade, e caso tenha conhecimento da coleta inadvertida de informações de um menor de idade, irá tomar as medidas necessárias para excluir esses dados.
+
+Compartilhamento de Informações:
+O Tri Admin compartilha as informações cadastradas com softwares de terceiros que estejam integrados ao software. A Viver Tecnologias se compromete a informar quais softwares são esses e garantir que a política de privacidade desses softwares esteja em conformidade com as leis e regulamentações aplicáveis. A Viver Tecnologias não compartilha as informações com outras empresas ou terceiros, exceto quando exigido por lei ou regulamentação aplicável.
+
+Procedimentos de Segurança:
+A Viver Tecnologias implementou procedimentos de segurança razoáveis para proteger as informações coletadas pelo Tri Admin. Esses procedimentos incluem, mas não estão limitados a, firewalls, criptografia, controles de acesso, monitoramento e detecção de intrusões. A Viver Tecnologias se esforça para manter esses procedimentos atualizados e em conformidade com as melhores práticas de segurança da informação.
+
+Alterações nesta Política:
+A Viver Tecnologias se reserva o direito de modificar esta Política de Privacidade a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação da versão atualizada. Recomendamos que os usuários revisem periodicamente esta política para se manterem informados sobre as práticas de privacidade da Viver Tecnologias.
+
+Contato:
+Caso tenha alguma dúvida sobre esta Política de Privacidade, entre em contato conosco pelo e-mail contato@tricontroledeacesso.com.
+
+
+Contrato de Licença do Software
+
+Este é um contrato de licença entre você, o usuário final (doravante referido como "Você" ou "Seu"), e a empresa Viver Tecnologias, nome fantasia Tri Controle de Acesso (doravante referida como "Nós" ou "Nosso"), para o uso do software privado desenvolvido por nós (doravante referido como "Software").
+
+Ao instalar, copiar ou usar o software, você concorda em ficar vinculado aos termos deste contrato de licença.
+
+Licença
+Nós concedemos a você uma licença pessoal, limitada, não exclusiva, intransferível e revogável para usar o Software apenas para seus fins internos.
+Você não tem permissão para distribuir, modificar, adaptar, traduzir, engenharia reversa, descompilar ou desmontar o software, ou criar trabalhos derivados do mesmo.
+
+Propriedade
+O Software é propriedade exclusiva da Viver Tecnologias, nome fantasia Tri Controle de Acesso, e está protegido pelas leis de direitos autorais e outras leis de propriedade intelectual aplicáveis. Não concedemos a você nenhum direito de propriedade sobre o software.
+
+Suporte e atualizações
+Nós não somos obrigados a fornecer suporte técnico, manutenção ou atualizações para o software. No entanto, reservamos o direito de fornecer esses serviços a nosso exclusivo critério.
+
+Garantia Limitada
+O software é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a garantias implícitas de comercialização, adequação a uma finalidade específica e não violação.
+
+Limitação de Responsabilidade
+Em nenhuma circunstância, seremos responsáveis por quaisquer danos, incluindo, mas não se limitando a danos diretos, indiretos, incidentais, especiais ou consequentes, decorrentes do uso ou incapacidade de usar o software.
+
+Rescisão
+Este contrato de licença será rescindido automaticamente se você violar qualquer um dos termos deste acordo.
+Em caso de rescisão, você deverá cessar imediatamente o uso do software e destruir todas as cópias do software em sua posse.
+
+Lei Aplicável
+Este contrato de licença será regido pelas leis do país em que a empresa Viver Tecnologias, nome fantasia Tri Controle de Acesso, está registrada, sem levar em conta conflitos de leis.
+Qualquer litígio decorrente deste contrato será resolvido exclusivamente pelos tribunais competentes localizados nesse país.
+
+
+Software de Terceiros:
+Este software utiliza os seguintes componentes de código aberto, cada um com sua própria licença:
+
+- Apache 2.4 - https://www.apache.org/licenses/LICENSE-2.0
+- PHP 7 - https://www.php.net/license/
+- Python 3.11 - https://docs.python.org/3/license.html
+- NSSM - http://nssm.cc/download
+
+Bibliotecas JavaScript:
+- Cropper.js - https://github.com/fengyuanchen/cropperjs/blob/master/LICENSE
+- Ionicons - https://github.com/ionic-team/ionicons/blob/master/LICENSE
+
+Google Fonts:
+- Open Font License - https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Bibliotecas Python:
+- a2wsgi==1.6.0 - https://github.com/abersheeran/a2wsgi/blob/master/LICENSE
+- aiosqlite==0.17.0 - https://github.com/omnilib/aiosqlite/blob/master/LICENSE
+- altgraph==0.17.3 - https://github.com/ronaldoussoren/altgraph/blob/master/LICENSE
+- anyio==3.6.2 - https://github.com/agronholm/anyio/blob/master/LICENSE
+- bcrypt==4.0.1 - https://github.com/pyca/bcrypt/blob/master/LICENSE
+- certifi==2022.9.24 - https://certifi.io/en/latest/
+- cffi==1.15.1 - https://github.com/cffi/cffi/blob/master/COPYRIGHT
+- charset-normalizer==2.1.1 - https://github.com/Ousret/charset_normalizer/blob/master/LICENSE
+- click==8.1.3 - https://github.com/pallets/click/blob/main/LICENSE.rst
+- colorama==0.4.6 - https://github.com/tartley/colorama/blob/master/LICENSE.txt
+- contourpy==1.0.6 - https://github.com/contourpy/contourpy/blob/main/LICENSE
+- crypto==1.4.1 - https://github.com/chrissimpkins/crypto/blob/master/LICENSE
+- cryptography==38.0.1 - https://github.com/pyca/cryptography/blob/main/LICENSE
+- cycler==0.11.0 - https://matplotlib.org/stable/users/license.html
+- databases==0.6.1 - https://github.com/encode/databases/blob/master/LICENSE.md
+- dnspython==2.2.1 - https://github.com/rthalley/dnspython/blob/master/LICENSE
+- ecdsa==0.18.0 - https://github.com/tlsfuzzer/python-ecdsa/blob/master/LICENSE
+- email-validator==1.3.0 - https://github.com/JoshData/python-email-validator/blob/main/LICENSE
+- et-xmlfile==1.1.0 - https://pypi.org/project/et-xmlfile/
+- fastapi==0.85.1 - https://github.com/tiangolo/fastapi/blob/master/LICENSE
+- Flask==2.2.2 - https://github.com/pallets/flask/blob/main/LICENSE.rst
+- fonttools==4.38.0 - https://github.com/fonttools/fonttools/blob/main/LICENSE
+- future==0.18.2 - https://github.com/PythonCharmers/python-future/blob/master/LICENSE.txt
+- h11==0.14.0 - https://github.com/python-hyper/h11/blob/master/LICENSE
+- h2==4.1.0 - https://github.com/python-hyper/h2/blob/master/LICENSE
+- hpack==4.0.0 - https://github.com/python-hyper/hpack/blob/master/LICENSE
+- hypercorn==0.14.3 - https://github.com/pgjones/hypercorn/blob/main/LICENSE
+- hyperframe==6.0.1 - https://github.com/python-hyper/hyperframe/blob/master/LICENSE
+- idna==3.4 - https://github.com/kjd/idna/blob/master/LICENSE.md
+- infi==0.0.1 - https://github.com/Infinidat/infi.systray/blob/develop/LICENSE
+- infi.systray==0.1.12 - https://github.com/Infinidat/infi.systray/blob/develop/LICENSE
+- itsdangerous==2.1.2 - https://github.com/pallets/itsdangerous/blob/main/LICENSE.rst
+- Jinja2==3.1.2 - https://github.com/pallets/jinja/blob/main/LICENSE.rst
+- jose==1.0.0 - https://github.com/latchset/jose/blob/master/COPYING
+- kiwisolver==1.4.4 - https://github.com/nucleic/kiwi/blob/main/LICENSE
+- MarkupSafe==2.1.1 - https://github.com/pallets/markupsafe/blob/main/LICENSE.rst
+- mod-wsgi==4.9.4 - https://github.com/GrahamDumpleton/mod_wsgi/blob/develop/LICENSE
+- Naked==0.1.31 - https://github.com/chrissimpkins/naked-docs/blob/master/licenses.rst
+- numpy==1.23.4 - https://numpy.org/doc/stable/license.html
+- opencv-python==4.6.0.66 - https://github.com/opencv/opencv/blob/master/LICENSE
+- openpyxl==3.0.10 - https://github.com/openpyxl/openpyxl-ci/blob/master/LICENSE
+- ormar==0.11.3 - https://github.com/collerek/ormar/blob/master/LICENSE.md
+- packaging==22.0 - https://github.com/pypa/packaging/blob/main/LICENSE
+- pandas==1.5.1 - https://github.com/pandas-dev/pandas/blob/master/LICENSE
+- passlib==1.7.4 - https://github.com/glic3rinu/passlib/blob/master/LICENSE
+- pefile==2022.5.30 - https://github.com/erocarrera/pefile/blob/master/LICENSE
+- Pillow==9.3.0 - https://github.com/python-pillow/Pillow/blob/master/LICENSE
+- priority==2.0.0 - https://github.com/python-hyper/priority/blob/master/LICENSE
+- psutil==5.9.4 - https://github.com/giampaolo/psutil/blob/master/LICENSE
+- pyasn1==0.4.8 - https://github.com/etingof/pyasn1/blob/master/LICENSE.rst
+- pycparser==2.21 - https://github.com/eliben/pycparser/blob/master/LICENSE
+- pydantic==1.10.2 - https://github.com/samuelcolvin/pydantic/blob/master/LICENSE
+- pyinstaller==5.7.0 - https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+- pyinstaller-hooks-contrib==2022.14 - https://github.com/pyinstaller/pyinstaller-hooks-contrib/blob/master/LICENSE
+- pyparsing==3.0.9 - https://github.com/pyparsing/pyparsing/blob/master/LICENSE
+- pypiwin32==223 - https://github.com/mhammond/pywin32/
+- pyTelegramBotAPI==4.7.1 - https://github.com/eternnoir/pyTelegramBotAPI/blob/master/LICENSE
+- python-dateutil==2.8.2 - https://github.com/dateutil/dateutil/blob/master/LICENSE
+- python-jose==3.3.0 - https://github.com/mpdavis/python-jose/blob/master/LICENSE
+- python-multipart==0.0.5 - https://github.com/andrew-d/python-multipart/blob/master/LICENSE.txt
+- pytz==2022.5 - https://github.com/stub42/pytz/blob/master/LICENSE.txt
+- pywin32==305 - https://github.com/mhammond/pywin32/
+- pywin32-ctypes==0.2.0 - https://github.com/mhammond/pywin32/
+- PyYAML==6.0 - https://github.com/yaml/pyyaml/blob/master/LICENSE
+- requests==2.28.1 - https://github.com/psf/requests/blob/master/LICENSE
+- rsa==4.9 - https://github.com/sybrenstuvel/python-rsa/blob/main/LICENSE
+- shellescape==3.8.1 - https://github.com/chrissimpkins/shellescape/blob/master/docs/LICENSE
+- six==1.16.0 - https://github.com/benjaminp/six/blob/master/LICENSE
+- sniffio==1.3.0 - https://github.com/python-trio/sniffio/blob/master/LICENSE
+- SQLAlchemy==1.4.41 - https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE
+- starlette==0.20.4 - https://github.com/encode/starlette/blob/master/LICENSE.md
+- toml==0.10.2 - https://github.com/uiri/toml/blob/master/LICENSE
+- typing_extensions==4.4.0 - https://github.com/python/typing_extensions/blob/main/LICENSE
+- urllib3==1.26.12 - https://github.com/urllib3/urllib3/blob/main/LICENSE.txt
+- uvicorn==0.19.0 - https://github.com/encode/uvicorn/blob/master/LICENSE.md
+- websockets==10.4 - https://github.com/aaugustin/websockets/blob/main/LICENSE
+- win10toast==0.9 - https://github.com/jithurjacob/Windows-10-Toast-Notifications/blob/master/LICENSE
+- wsproto==1.2.0 - https://github.com/python-hyper/wsproto/blob/master/LICENSE
+- xlwt==1.3.0 - https://github.com/python-excel/xlwt/blob/master/LICENSE
+
+Este software pode utilizar outros componentes de terceiros que não foram mencionados. Nosso conhecimento sobre esses componentes é limitado e a responsabilidade por eles pertence aos seus respectivos proprietários e desenvolvedores.
+
+
+Aceitação
+Ao instalar, copiar ou usar o software, você reconhece ter lido este contrato de licença e concorda em ficar vinculado por seus termos e condições.
+Se você não concorda com os termos deste contrato de licença, não instale, copie ou use o software.

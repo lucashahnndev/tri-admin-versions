@@ -1,0 +1,44 @@
+Política de Privacidade
+
+A Tri Controle de Acesso, razão social Viver Tecnologias, desenvolvedora do software Tri Admin, tem como compromisso a privacidade e a segurança dos dados dos usuários do software. Este documento descreve as informações que são coletadas e como são utilizadas.
+
+Informações Coletadas pela Empresa Desenvolvedora:
+A empresa desenvolvedora se reserva o direito de coletar dados como o navegador (nome, versão) e o sistema operacional (nome, versão) para aprimoramento do software e oferecer um melhor suporte. A empresa desenvolvedora não obtém ou tem acesso a quaisquer outros dados, exceto em casos onde solicitado e permitido pelo cliente proprietário da licença do software Tri Admin instalado.
+
+Informações Coletadas pelo Software:
+O software Tri Admin captura o endereço IP, a rota acessada, o objeto visto, criado, editado ou excluído e o nome para relatório de segurança, para que o usuário possa consultar os registros. A empresa desenvolvedora não tem acesso a estes dados, a menos que solicitado e permitido pelo proprietário da licença de instalação do software.
+
+Dados Cadastrais:
+Nos campos de cadastros é obtido os dados cadastrais de uma pessoa e/ou objeto, que não são de responsabilidade da desenvolvedora, mas sim de quem instalou o software e está usando-o, pois o software é um aplicativo servidor/cliente, ou seja, quem o possui é responsável por gerenciar e controlar o sistema e o servidor. A desenvolvedora não tem e não terá acesso a estes dados, a menos que solicitado pelo cliente proprietário da versão instalada.
+
+Senhas:
+Nem a desenvolvedora nem o proprietário do site tem acesso às senhas, pois elas são criptografadas antes de serem salvas em banco de dados. O sistema atua sobre o protocolo HTTPS.
+
+Câmera e Armazenamento:
+O sistema utiliza a câmera somente sob alguma ação do usuário, geralmente para obter foto para cadastros. O software (a versão cliente) tem acesso ao armazenamento interno somente para obter algum arquivo sob ação do usuário ou salvar algum arquivo sob ação de algum usuário, geralmente para inserir imagens, importar registros em lote ou exportar algum relatório ou backup. O sistema (a parte que é o servidor ou seja a versão servidor do software) tem acesso ao armazenamento interno do sistema operacional para o funcionamento do software. As pastas as quais geralmente terão alguma modificação são a pasta raiz do software e a pasta temporária do sistema operacional, e seus usos e motivos são diversos.
+
+Cookies:
+O software não captura ou manuseia os cookies do site, somente os campos localstorage e sessionstorage.
+
+Procedimentos de Segurança:
+A empresa desenvolvedora utiliza medidas de segurança para proteger as informações contra acesso não autorizado, alteração, divulgação ou destruição não autorizada dos dados. Entre as medidas adotadas estão a criptografia dos dados, a utilização de certificados SSL e a restrição de acesso às informações pelos funcionários da empresa.
+
+Solicitação de Exclusão de Dados:
+Caso o usuário esteja insatisfeito por ter algum de seus dados cadastrados ou registrados no Tri Admin, poderá solicitar diretamente ao proprietário da licença instalada a exclusão dos mesmos.
+
+Caso o usuário esteja insatisfeito por ter seus dados coletados pela Viver Tecnologias, como o navegador e sistema operacional, poderá solicitar a exclusão pelo e-mail contato@tricontroledeacesso.com. A empresa se compromete a atender a solicitação em um prazo razoável e de acordo com as leis e regulamentações aplicáveis.
+
+Dados de Menores de Idade:
+A Viver Tecnologias não coleta dados de menores de idade, e caso tenha conhecimento da coleta inadvertida de informações de um menor de idade, irá tomar as medidas necessárias para excluir esses dados.
+
+Compartilhamento de Informações:
+O Tri Admin compartilha as informações cadastradas com softwares de terceiros que estejam integrados ao software. A Viver Tecnologias se compromete a informar quais softwares são esses e garantir que a política de privacidade desses softwares esteja em conformidade com as leis e regulamentações aplicáveis. A Viver Tecnologias não compartilha as informações com outras empresas ou terceiros, exceto quando exigido por lei ou regulamentação aplicável.
+
+Procedimentos de Segurança:
+A Viver Tecnologias implementou procedimentos de segurança razoáveis para proteger as informações coletadas pelo Tri Admin. Esses procedimentos incluem, mas não estão limitados a, firewalls, criptografia, controles de acesso, monitoramento e detecção de intrusões. A Viver Tecnologias se esforça para manter esses procedimentos atualizados e em conformidade com as melhores práticas de segurança da informação.
+
+Alterações nesta Política:
+A Viver Tecnologias se reserva o direito de modificar esta Política de Privacidade a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação da versão atualizada. Recomendamos que os usuários revisem periodicamente esta política para se manterem informados sobre as práticas de privacidade da Viver Tecnologias.
+
+Contato:
+Caso tenha alguma dúvida sobre esta Política de Privacidade, entre em contato conosco pelo e-mail contato@tricontroledeacesso.com.

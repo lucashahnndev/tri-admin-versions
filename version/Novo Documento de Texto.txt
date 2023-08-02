@@ -1,0 +1,2 @@
+corrigido alguns bugs de configuração para o primeiro uso do servidor logo apos a instalçaõ
+removido importação de bibliotecas não utilizadas e ou importadas em duplicidade
