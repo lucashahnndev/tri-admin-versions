@@ -2,7 +2,7 @@
 
  O TRI admin é uma aplicação web para gerenciamento de estabelecimentos usuarios e visitantes. O software permite a gestão de acessos e permissões para usuários de forma organizada e segura. Utilizando o banco de dados SQLite e a biblioteca ORMAR para manipulação de modelos, o software oferece uma interface intuitiva para a gestão de acessos e permissões dos usuários, além de contar com um módulo de autenticação seguro e ferramentas de segurança para proteger a plataforma contra ataques. Como uma aplicação PWA, o TRI admin pode ser instalado em qualquer plataforma, oferecendo vantagens como independência de sistema operacional e baixo consumo de memória.
  
-[![cover]([![Top Langs](https://github.com/lucashahnndev/tri-admin-versions/blob/main/capa.png))
+[![cover](https://github.com/lucashahnndev/tri-admin-versions/blob/main/capa.png)
 
 ## Sumário
 
