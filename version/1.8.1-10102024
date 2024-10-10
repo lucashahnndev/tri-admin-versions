@@ -1,0 +1,48 @@
+<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <p><strong>Documento de Atualização - TRI Admin</strong></p>
+    <p><strong>Versão:</strong> 1.8.1-10.10.2024</p>
+    <hr>
+    <h2>Novas Funcionalidades e Melhorias:</h2>
+    <ul>
+        <li><strong>Design Visual Refinado:</strong>
+            <p>Realizado o afinamento e refinamento do design para melhorar a aparência visual e a experiência do usuário.</p>
+        </li>
+        <li><strong>Opção de Personalização do Ícone de Carregamento:</strong>
+            <p>Agora é possível escolher o ícone de carregamento preferido pelo usuário.</p>
+        </li>
+        <li><strong>Otimização na Tela de Adição/Edição de Elementos:</strong>
+            <p>A interface para adição e edição de elementos foi reformulada, substituindo a visualização horizontal por uma nova interface semelhante ao Google Chrome, com abas e seções separadas, tornando o uso mais organizado e intuitivo.</p>
+        </li>
+        <li><strong>Campos de Data Inicial e Data Final para Controle de Expiração:</strong>
+            <p>Adicionados campos para definir a data inicial e final de visitas, permitindo um controle preciso do tempo de expiração da autorização no controle de acesso facial para pessoas cadastradas no sistema.</p>
+        </li>
+        <li><strong>Validação de Campos:</strong>
+            <p>Implementada validação para garantir que os campos sejam preenchidos corretamente antes do salvamento, como:</p>
+            <ul>
+                <li><strong>E-mail:</strong> Aceita somente endereços de e-mail válidos.</li>
+                <li><strong>CPF:</strong> Aceita somente CPFs válidos.</li>
+            </ul>
+            <p>Essas validações garantem maior precisão e segurança nos registros.</p>
+        </li>
+        <li><strong>Navegação Otimizada:</strong>
+            <p>A navegação do sistema foi aprimorada para proporcionar uma experiência mais intuitiva e fluida ao usuário.</p>
+        </li>
+        <li><strong>Relatórios e Logs:</strong>
+            <p>Adicionada a funcionalidade de geração de relatórios para visualização de registros de auditoria dos agentes.</p>
+            <p>Agora é possível acessar logs de acesso HTTPS/HTTP do servidor, aumentando a transparência e controle sobre as atividades.</p>
+        </li>
+        <li><strong>Revisão de Formulários e Campos:</strong>
+            <p>Todos os formulários foram revisados e ajustados para garantir a conformidade com as categorias e funcionalidades.</p>
+            <p>O CPF foi configurado como campo obrigatório para o cadastro de usuário, permitindo futuras integrações e usos mais seguros.</p>
+        </li>
+        <li><strong>Campo de Comentário em Registros e Cadastros:</strong>
+            <p>Adicionado um campo de comentário em todos os registros e cadastros, permitindo que informações adicionais sejam documentadas conforme necessário.</p>
+        </li>
+    </ul>
+    <h2>Correções:</h2>
+    <ul>
+        <li>Diversos bugs foram corrigidos para melhorar a estabilidade e a performance do sistema.</li>
+    </ul>
+    <hr>
+    <p><em>Agradecemos por utilizar o TRI Admin e continuamos trabalhando para oferecer a melhor experiência e performance.</em></p>
+</div>
